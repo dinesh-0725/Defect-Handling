@@ -14,11 +14,13 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+
         .error-message {
             color: red;
             font-size: 0.9em;
             margin-top: 5px;
         }
+
     </style>
 </head>
 <body>
@@ -104,9 +106,13 @@
                     error: function() {
                         $('#errorDiv').text('An error occurred. Please try again.');
                     }
+
                 });
+
             });
+
         });
+
     </script>
 </body>
 </html>
