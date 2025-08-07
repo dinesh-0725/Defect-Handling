@@ -36,13 +36,16 @@
                     <label for="username" class="form-label">Username</label>
                     <input type="text" class="form-control" id="username" name="username" required>
                 </div>
+
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password" name="password" required>
                 </div>
+
                 <div class="mb-3">
                     <button type="submit" class="btn btn-primary w-100">Login</button>
                 </div>
+
                 <div class="text-center">
                     <a href="register.jsp">Don't have an account? Register here</a>
                 </div>
@@ -50,6 +53,8 @@
             <div id="errorDiv" class="error-message"></div>
         </div>
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
