@@ -7,9 +7,6 @@
 %>
 
 
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
